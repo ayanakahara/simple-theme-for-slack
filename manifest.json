@@ -4,14 +4,12 @@
   "manifest_version": 2,
   "description": "This is simple theme for Slack",
   "content_scripts": [{
-    "matches": ["https://*.slack.com/messages/*"],
-    "css": ["style.css"],
+    "matches": ["https://*.slack.com/messages/*","https://*.slack.com/threads/"],
+    "css": ["style/index.css"],
     "run_at": "document_end",
     "all_frames": true
   }],
-  "permissions": [
-    "storage"
-  ],
+  "web_accessible_resources": ["avatar/*"],
   "icons": {
     "16": "icon/icon16.png",
     "48": "icon/icon48.png",

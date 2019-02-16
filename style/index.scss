@@ -1,0 +1,65 @@
+.c-avatar__image {
+    display: none !important;
+}
+
+.c-message__gutter {
+    background: url("chrome-extension://__MSG_@@extension_id__/avatar/blond-haired-woman-medium-skin-tone.png") no-repeat;
+    background-size: contain !important;
+    background-position-x: 50% !important;
+}
+
+.message_icon {
+    background: url("chrome-extension://__MSG_@@extension_id__/avatar/baby-light-skin-tone.png") no-repeat; 
+    background-size: contain !important;
+    background-position-x: 50% !important;
+}
+
+.c-message--adjacent {
+    .c-message__gutter {
+        visibility: hidden !important;
+    }
+}
+.slack_menu_you {
+    .slack_menu_header {
+        background: url("chrome-extension://__MSG_@@extension_id__/avatar/woman-red-haired-light-skin-tone.png") no-repeat; 
+        background-size: contain !important;
+        .member_image {
+            visibility: hidden;
+        }
+    }
+}
+
+.thread_messages {
+    .member_image {
+        visibility: hidden !important;
+    }
+}
+
+#col_flex {
+    .c-avatar {
+        background: url("chrome-extension://__MSG_@@extension_id__/avatar/woman-with-headscarf-light-skin-tone.png") no-repeat; 
+        background-size: contain !important;
+    }
+}
+
+.c-message__reply_bar {
+    .c-avatar {
+        background: url("chrome-extension://__MSG_@@extension_id__/avatar/bearded-person-light-skin-tone.png") no-repeat; 
+        background-size: contain !important;
+        &+.c-avatar {
+            background: url("chrome-extension://__MSG_@@extension_id__/avatar/old-man-medium-light-skin-tone.png") no-repeat; 
+        }
+    }
+}
+
+.im_browser_row {
+    .c-unified_member {
+        background: url("chrome-extension://__MSG_@@extension_id__/avatar/full-moon-with-face.png") no-repeat; 
+        background-size: contain !important;
+    }
+    .c-unified_member {
+        .member_image {
+            visibility: hidden !important;
+        }
+    }
+}

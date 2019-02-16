@@ -1,0 +1,25 @@
+{
+  "name": "simple-theme-for-slack",
+  "version": "1.0.0",
+  "main": "insertIcon.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayanakahara/simple-theme-for-slack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayanakahara/simple-theme-for-slack/issues"
+  },
+  "homepage": "https://github.com/ayanakahara/simple-theme-for-slack#readme",
+  "description": "slack theme"
+}
